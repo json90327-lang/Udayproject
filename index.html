@@ -1,6 +1,36 @@
 <html>
     <head>
         <link rel="stylesheet" href="./Boostrap.css">
+        <style>
+            body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.banner {
+    background-image: url("./about\ 5.png");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.banner-content h1 {
+    font-size: 40px;
+}
+
+.banner-content button {
+    padding: 10px 20px;
+    background-color: orange;
+    border: none;
+    cursor: pointer;
+}
+
+        </style>
     </head>
     <body>
         
@@ -17,23 +47,43 @@
             </ul>
         </div>
        </nav>
+       <div class="banner">
+    <div class="banner-content">
+        <h5>Home Page</h5>
+        <h1>Welcome to My Website</h1>
+        <p>Learn Web Development Easily</p>
+        <button>Get Started</button>
+    </div>
+</div><br><br>
        <div>
-        <h3>Home Page</h3>
+        
        </div>
-       <div class="container">
+      <div class="container">
         <div class="row">
-            <div class="col-4">
-                <ul class="list-group">
-                     <li class="list-group-item">PHP Development</li>
-                <li class="list-group-item">MEAN Development</li>
-                <li class="list-group-item">MERN Development</li>
-                <li class="list-group-item">Android Development</li>
-                <li class="list-group-item">Cloud Services</li>
-                    
-                </ul>
-
-            </div>
+            <div class="col-4 box">
+                <h1>Frontend Development</h1>
+                <p>Frontend is the user interface part of a website or application.
+                   It is created using HTML, CSS, and JavaScript.
+                   Frontend controls what users see and interact with on the screen.
+                   It includes buttons, forms, images, navigation menus, and layouts.
+                   Popular frontend technologies include React, Angular, and Vue.js.</p></div>
+                   <div class="col-4 box">
+                    <h2>Backend Development</h2>
+                    <p>Backend is the server-side part of a website or application.
+                       It handles business logic, data processing, and authentication.
+                       Backend connects the application to the database.
+                       It is developed using languages like Python, Java, PHP, and JavaScript.
+                       Popular backend technologies include Node.js, Django, and Spring Boot.</p>
+                   </div>
+                   <div class="col-4 box">
+                    <h3>Database Management</h3>
+                    <p>A database is used to store and manage data in an application.
+                       It saves information like user details, passwords, products, and orders.
+                       The backend connects to the database to store and retrieve data.
+                       Databases can be SQL (relational) or NoSQL (non-relational) types.
+                       Popular databases include MySQL, MongoDB, and PostgreSQL.</p>
+                   </div>
         </div>
-       </div>
+      </div>
     </body>
 </html>
